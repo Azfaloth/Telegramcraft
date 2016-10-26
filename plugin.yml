@@ -1,0 +1,22 @@
+name: Telegramcraft
+version: 1.0
+description: Link to Telegram bots
+author: Azfaloth
+main: com.gmail.azfaloth.telegramcraft.Initialize
+commands:
+   telegram:
+     description: telegram node command
+     aliases: []
+     permission: telegramcraft.link
+     usage: Type /telegram link to generate a token.
+   staff:
+     description: staff notify command
+     aliases: []
+     usage: Type /staff <message> to notify staff of any issue.
+permissions:
+   telegramcraft.link:
+     description: Allows you to link telegram and minecraft.
+   telegramcraft.settoken:
+     description: Allows you to set the bot token
+   telegramcraft.reload:
+     description: Allows you to reload the config from file

@@ -1,0 +1,26 @@
+# _____  ___   _      ___   ____   ____     _    _   _  ___  ____     _    ___   _____ 
+#)__ __() __( ) |    ) __( ).-._( /  _ \   )_\  ) \_/ (/ _( /  _ \   )_\  ) __( )__ __(
+#  | |  | _)  | (__  | _)  |( ,-. )  ' /  /( )\ |  _  |))_  )  ' /  /( )\ | _)    | |  
+#  )_(  )___( )____( )___( )_`__( |_()_\ )_/ \_()_( )_(\__( |_()_\ )_/ \_()_(     )_( 
+#
+#Commands that can be used in game:
+#/telegram link - to link telegram to server account - requires "telegramcraft.link" permission
+#/telegram settoken - to set bot token from telegram - requires "telegramcraft.settoken" permission
+#/telegram reload - reloads config - requires "telegramcraft.reload" permission
+#/staff - sends a message to the telegram users with ids in the staff list of the config
+botToken: ""
+serverName: ""
+blockedFormats:
+ - "§f[§4ADMIN§f]"
+ - "§f[§3TC§f]"
+ - "§f[§6NC§f]"
+ - "§f[local]"
+IDList: []
+StaffList: []
+linkCodes: []
+linkedChats: []
+chat-format: '&c[&r&lOffline&r&c]&r&6 %player%&r: %message%'
+enable:
+ joinquitmessages: true
+ deathmessages: true
+ chatformatdebug: false
